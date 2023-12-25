@@ -1,0 +1,38 @@
+.container{
+    background-color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.unordered-list {
+    list-style-type: none;
+    display : flex;
+    padding : 10px;
+
+}
+
+.unordered-list li {
+    float : left;
+    margin : 0;
+    padding : 0;
+
+}
+
+.unordered-list li a{
+    display: block;
+    color : white;
+    text-align : center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.unordered-list li a:hover{
+    background-color: #ddd;
+    color: blue;
+}
+
+.unordered-list li:last-child {
+    margin-right: auto;
+}
